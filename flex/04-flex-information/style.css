@@ -1,5 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* display: flex; */
+}
+
+.plants{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  /* border: red solid; */
+  text-align: center;
+  gap: 30px;
+}
+
+.eggplant, .serrano, .lavender, .blueberry {
+  /* padding: 10px;
+  margin: 10px; */
 }
 
 img {
@@ -10,6 +26,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
